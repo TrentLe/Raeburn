@@ -1,16 +1,17 @@
-import React from "react";
-import Header from "./componenets/header";
-import Footer from "./componenets/footer";
-import Profile from "./componenets/profile";
+import './App.scss'
+import { Routes, Route } from 'react-router-dom';
+
+import Layout from './componenets/Layout';
 
 const App = () => {
-  return (
-    <div className="app">
-      <Header />
-      <Profile />
-      <Footer />
-    </div>
-  );
-}
+    return (
+      <>
+      <Routes>
+        <Route path="/" element={<Layout />} />
+      </Routes>
+      </>
+    
+    );
+};
 
 export default App;
