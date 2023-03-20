@@ -11,8 +11,9 @@ const Sidebar = () => {
   <div className='nav-bar'>
     <Link className='logo'  to='/'>
         <img src={logoR} alt='logo' />
-        <img src={Raelo} alt='logo' />
+        <img className="sub-logo" src={Raelo} alt='Raeburn' />
     </Link>
+    <nav className='nav-links'>
     <NavLink exact="true" activeclassname="active" to='/'>
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
     </NavLink>
@@ -25,6 +26,7 @@ const Sidebar = () => {
     <NavLink exact="true" activeclassname="active" class="contactLink" to='/contact'>
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
     </NavLink>
+    </nav>
   </div>
   )
 
