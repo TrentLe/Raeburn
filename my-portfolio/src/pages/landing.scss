@@ -1,0 +1,15 @@
+.imageButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+        max-height: 500px;
+        animation: fadeIn 2s backwards;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+    
+}
