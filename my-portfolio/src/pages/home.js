@@ -8,8 +8,11 @@ import './home.scss'
 
 const HomePage = () => {
     return (
-        <h1>Oi Im here</h1>
-
+       <div>
+        <Home />
+       <Sidebar />
+   
+       </div> 
    
     );
 }

@@ -21,14 +21,14 @@ const LandingPage = () => {
     };
 
     return (
-        <section className="landing">
-          <Link to="./Home">
+       
+          <Link className="link" to="./Home">
             <div className="img-button">
                 <ImageButton src={Welcome} alt="Welcome" onClick={handleClick} />
             </div>
             </Link>
 
-            </section>
+         
 
     );
 };

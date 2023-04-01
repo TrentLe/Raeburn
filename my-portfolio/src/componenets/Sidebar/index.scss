@@ -12,8 +12,8 @@
       padding: 10px;
         img{
             display: block;
-            margin: 7px auto;
-            width: 50px;
+            margin: 0 auto;
+            width: 65px;
             height: auto;
             &.sub-logo{
                 width: 50px;
@@ -126,5 +126,12 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar{
+        display: none;
+    }
+    
 }
 
