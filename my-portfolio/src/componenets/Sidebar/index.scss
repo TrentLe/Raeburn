@@ -2,7 +2,7 @@
     background: #1b1b1b;
     height: 100%;
     width: 95px;
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 3;
     min-height: 500px;
@@ -82,7 +82,7 @@
 
                 &:nth-child(2) {
                     &::after{
-                        content: 'About';
+                        content: 'Resume';
                     }
                 }
 

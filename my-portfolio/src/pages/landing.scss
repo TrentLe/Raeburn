@@ -59,3 +59,14 @@
         transform: scale(1.1);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .img-button {
+        width: 65%;
+        margin-top: 45%;
+        margin-bottom: 35%;
+        justify-content: center;
+    }
+}
+
+
