@@ -3,16 +3,23 @@ import './index.scss';
 import logoR from '../../assets/images/logoR.png';
 import Raelo from '../../assets/images/Raelo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faFolder, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import {    faHome,
+    faUser,
+    faFolder,
+    faEnvelope,
+    faBars, } from '@fortawesome/free-solid-svg-icons';
 
 
 const Sidebar = () => {
     return (
+       
   <div className='nav-bar'>
     <Link className='logo'  to='/'>
         <img src={logoR} alt='logo' />
   
     </Link>
+   
+
     <nav className='nav-links'>
     <NavLink exact="true" activeclassname="active" to='/Home'>
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -40,6 +47,7 @@ const Sidebar = () => {
         </li>
         </ul>
   </div>
+  
   )
 
 }
