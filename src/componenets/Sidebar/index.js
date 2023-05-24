@@ -7,7 +7,8 @@ import {    faHome,
     faUser,
     faFolder,
     faEnvelope,
-    faBars, } from '@fortawesome/free-solid-svg-icons';
+    faBars,
+    faImage, } from '@fortawesome/free-solid-svg-icons';
 
 
 const Sidebar = () => {
@@ -27,13 +28,14 @@ const Sidebar = () => {
     <NavLink exact="true" activeclassname="active" class="resumeLink" to='/Resume'>
         <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
     </NavLink>
-    <NavLink exact="true" activeclassname="active" class="projectsLink" to='/projects'>
-        <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
+    <NavLink exact="true" activeclassname="active" class="projectsLink" to='/Gallery'>
+        <FontAwesomeIcon icon={faImage} color="#4d4d4e" />
     </NavLink>
     <NavLink exact="true" activeclassname="active" class="contactLink" to='/contact'>
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
     </NavLink>
     </nav>
+  
     <ul>
         <li>
         <a href='https://www.linkedin.com/in/traeburn058/' target='_blank' rel='noreferrer'>
@@ -48,6 +50,9 @@ const Sidebar = () => {
         </ul>
   </div>
   
+
+   
+
   )
 
 }

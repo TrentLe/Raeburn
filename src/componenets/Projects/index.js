@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Profile = () => {
+const Projects = () => {
     return (
         <div className="profile">
             <div className="profile__image">
@@ -26,4 +26,4 @@ const Profile = () => {
     );
 };
 
-export default Profile;
+export default Projects;

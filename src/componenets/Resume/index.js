@@ -1,13 +1,15 @@
 import React, {state} from 'react';
-import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack';
+import { Document, Page, pdfjs } from 'react-pdf';
 import './index.scss';
-import Resumefile from '../../assets/document/Resumepdf.pdf';
+import FinalResume from '../../assets/document/FinalResume.pdf';
+import resume from '../../assets/document/resume.docx';
+import DocViewer from "react-doc-viewer";
 
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Resume = () => {
 
-    const file = Resumefile;
+    const file = FinalResume;
 
  return (
     <section className="resume">
@@ -20,9 +22,14 @@ const Resume = () => {
 
             <Page pageNumber={2} />
         </Document>
+   
+    
     </section>
+    
+    
     )
-        
+
+   
 }
 
 export default Resume;

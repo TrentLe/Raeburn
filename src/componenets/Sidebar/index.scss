@@ -90,7 +90,7 @@
 
                 &:nth-child(3) {
                     &::after{
-                        content: 'Projects';
+                        content: 'Gallery';
                     }
                 }
 
@@ -136,6 +136,8 @@
     .nav-bar{
         display: none;
     }
+    
+
 }
 
 

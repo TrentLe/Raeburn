@@ -1,0 +1,107 @@
+.beach{
+    background-image: url("https://images.unsplash.com/photo-1519861531471-5c7e9556c8d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b2b0b0b0b0b0b0b0b0b0b0b0b0b0b0b");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 33vw;
+    margin-left: 555px;
+    margin-top: 25px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 0 2rem;
+    .beach__button{
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 2rem;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.modelx{
+    background-image: url("https://images.unsplash.com/photo-1519861531471-5c7e9556c8d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b2b0b0b0b0b0b0b0b0b0b0b0b0b0b0b");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 33vw;
+    margin-left: 255px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 0 2rem;
+    .modelx__button{
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 2rem;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+
+.flowers{
+    background-image: url("https://images.unsplash.com/photo-1519861531471-5c7e9556c8d1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3b2b0b0b0b0b0b0b0b0b0b0b0b0b0b0b");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 33vw;
+    margin-left: 155px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 0 2rem;
+    .flowers__button{
+        background-color: white;
+        color: black;
+        border: none;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 2rem;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}

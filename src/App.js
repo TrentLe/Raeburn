@@ -7,6 +7,8 @@ import Home from './componenets/Home';
 import LandingPage from './pages/landing';
 import HomePage from './pages/home';
 import ResumePage from './pages/resume';
+import Projects from './pages/gallery';
+import Gallery from './pages/gallery';
 
 const App = () => {
     return (
@@ -16,6 +18,7 @@ const App = () => {
         <Route path="/" element={<Layout />} />
         <Route path="/Home" element={<HomePage />} />
         <Route path="/Resume" element={<ResumePage />} />
+        <Route path="/Gallery" element={<Gallery />} />
       </Routes>
       </>
     
