@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
 import './index.scss';
 import logoR from '../../assets/images/logoR.png';
 import Raelo from '../../assets/images/Raelo.png';
@@ -7,10 +8,17 @@ import {    faHome,
     faUser,
     faFolder,
     faEnvelope,
-    faBars, } from '@fortawesome/free-solid-svg-icons';
+    faBars,
+    faImage } from '@fortawesome/free-solid-svg-icons';
 
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen)
+  }
+
     return (
     <div className='nav-bar-mobile'>
     <nav className='nav-links-mobile'>
@@ -20,9 +28,9 @@ const Navbar = () => {
 <NavLink exact="true" activeclassname="active" class="resumeLink" to='/Resume'>
   <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
 </NavLink>
-<NavLink exact="true" activeclassname="active" class="projectsLink" to='/projects'>
-  <FontAwesomeIcon icon={faFolder} color="#4d4d4e" />
-</NavLink>
+<NavLink exact="true" activeclassname="active" class="projectsLink" to='/Gallery'>
+        <FontAwesomeIcon icon={faImage} color="#4d4d4e" />
+    </NavLink>
 <NavLink exact="true" activeclassname="active" class="contactLink" to='/contact'>
   <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
 </NavLink>

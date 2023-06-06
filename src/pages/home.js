@@ -10,8 +10,8 @@ import Navbar from "../componenets/Navbar";
 const HomePage = () => {
     return (
        <div>
-        <Home />
         <Navbar />
+        <Home />
        <Sidebar />
    
        </div> 

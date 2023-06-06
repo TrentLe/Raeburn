@@ -17,6 +17,11 @@ const Resume = () => {
         <br />
         <br />
         <Page pageNumber={2} />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Page pageNumber={3} />
       </Document>
     </section>
   );
