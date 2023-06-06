@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Raeburn/static/css/main.6ea21561.css",
-    "main.js": "/Raeburn/static/js/main.f755786b.js",
+    "main.css": "/Raeburn/static/css/main.c29068b9.css",
+    "main.js": "/Raeburn/static/js/main.4b105c53.js",
     "static/js/787.128fc6e9.chunk.js": "/Raeburn/static/js/787.128fc6e9.chunk.js",
     "static/media/beach.jpg": "/Raeburn/static/media/beach.b5da331328b0f39e4857.jpg",
     "static/media/nebby.jpg": "/Raeburn/static/media/nebby.6fc10e78198fccb1dc6b.jpg",
@@ -9,7 +9,6 @@
     "static/media/modelx.jpg": "/Raeburn/static/media/modelx.fbb1f8deb86754fb5a85.jpg",
     "static/media/flowers.jpg": "/Raeburn/static/media/flowers.cf8aadaf87280a28ea0b.jpg",
     "static/media/Welcome.png": "/Raeburn/static/media/Welcome.9350fcd58aa9e4131971.png",
-    "static/media/resume.docx": "/Raeburn/static/media/resume.5ca79419f78e7974c2e8.docx",
     "static/media/helvetica-neu.ttf": "/Raeburn/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/Raelo.png": "/Raeburn/static/media/Raelo.3bc41296222a713bcfc9.png",
     "static/media/logoR.png": "/Raeburn/static/media/logoR.ddc37fb9905cf9b3ba05.png",
@@ -17,12 +16,12 @@
     "static/media/Trent.png": "/Raeburn/static/media/Trent.ef9f53e3282ed6edb353.png",
     "static/media/CoolveticaRg-Regular.woff2": "/Raeburn/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Raeburn/index.html",
-    "main.6ea21561.css.map": "/Raeburn/static/css/main.6ea21561.css.map",
-    "main.f755786b.js.map": "/Raeburn/static/js/main.f755786b.js.map",
+    "main.c29068b9.css.map": "/Raeburn/static/css/main.c29068b9.css.map",
+    "main.4b105c53.js.map": "/Raeburn/static/js/main.4b105c53.js.map",
     "787.128fc6e9.chunk.js.map": "/Raeburn/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ea21561.css",
-    "static/js/main.f755786b.js"
+    "static/css/main.c29068b9.css",
+    "static/js/main.4b105c53.js"
   ]
 }
