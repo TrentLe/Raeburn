@@ -11,12 +11,10 @@ const Home = () => {
                 <h1 className="title">Hi, I'm <br /><span className="name">
                  <img src={Trent} alt="dev" /></span></h1>
                
-               <h2> Full Stack Web Developer / Grapic Artist / Photographer</h2>
+               <h2> Project Coordinator</h2>
                <div className='description'>
-                <p className='p-text'>I'm a full-stack web developer with a passion for creating beautiful, functional websites and applications.
-                I have a background in graphic design and photography, which has given me a unique perspective on not only the web development process, but the world as a whole.
-                I'm always looking for new opportunities to learn and grow, in hopes of becoming a better developer and a better person. The world we live in is constantly changing, 
-                for better or for worse, and I believe that it is our responsibility to do our part in making it a better place for everyone. We can do this together, but we can Only do this together.
+                <p className='p-text'>In a world driven by AI and automated systems I aim to bring fresh eyes and a new perspective to avoid being 
+                    stuck in a binary monochrome society. Too often, we look at the gears that are spinning and not realizing it is the screws holding things in place.
                 <br />
                 <br />
                 On this site you will find a collection of my work, as well as a link to my resume and contact information.
